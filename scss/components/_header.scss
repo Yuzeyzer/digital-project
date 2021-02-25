@@ -17,6 +17,9 @@
 		color: $color-black;
 		@include font(12px, 400, 0.2em, uppercase);
 	}
+	&__logo {
+		display: none;
+	}
 }
 
 .burger-menu {
@@ -93,6 +96,9 @@
 		&__item {
 			margin-top: 20px;
 			margin-left: 0;
+		}
+		&__logo {
+			display: block;
 		}
 	}
 	.burger-menu {

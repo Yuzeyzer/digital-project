@@ -311,6 +311,10 @@ img {
   text-transform: uppercase;
 }
 
+.nav__logo {
+  display: none;
+}
+
 .burger-menu {
   position: fixed;
   right: 5%;
@@ -391,6 +395,9 @@ img {
   .nav__item {
     margin-top: 20px;
     margin-left: 0;
+  }
+  .nav__logo {
+    display: block;
   }
   .burger-menu {
     display: flex;
