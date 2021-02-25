@@ -1,0 +1,60 @@
+.hero {
+	position: relative;
+	.row {
+		display: flex !important;
+	}
+	.col-4 &__item {
+		padding-top: 200px;
+	}
+	&__counter {
+		@include font(24px, 400, 0.2em);
+		margin-top: 220px;
+		color: $color-gray;
+		span:nth-child(2) {
+			margin: 0 10px;
+		}
+	}
+	&__item {
+		position: relative;
+	}
+	&__link {
+		@include font(12px, 400, 0.2em, uppercase);
+		@include position(auto, 0, auto, 0);
+		padding: 30px 50px;
+		background-color: $color-white;
+	}
+	.slick-slide {
+		outline: none;
+	}
+	.slick-next.slick-arrow,
+	.slick-prev.slick-arrow {
+		position: absolute;
+		top: 50%;
+		font-size: 0;
+		width: 50px;
+		height: 50px;
+		background-color: $color-white;
+		outline: none;
+		border: 1px solid $color-gray;
+		z-index: 1;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: 17px;
+			height: 8px;
+			background: url("../images/arrow.svg");
+		}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.slick-next.slick-arrow {
+		left: 70px;
+		&::before {
+			transform: translate(-50%, -50%) rotate(180deg);
+		}
+	}
+}

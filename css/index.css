@@ -1,0 +1,1081 @@
+@font-face {
+  font-family: "TT Hoves Hairline";
+  src: url("../scss/fonts/TTHoves-HairlineItalic.eot");
+  src: local("TT Hoves Hairline Italic"), local("../scss/fonts/TTHoves-HairlineItalic"), url("../scss/fonts/TTHoves-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-HairlineItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-HairlineItalic.woff") format("woff"), url("../scss/fonts/TTHoves-HairlineItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-ExtraLightItalic.eot");
+  src: local("TT Hoves ExtraLight Italic"), local("../scss/fonts/TTHoves-ExtraLightItalic"), url("../scss/fonts/TTHoves-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-ExtraLightItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-ExtraLightItalic.woff") format("woff"), url("../scss/fonts/TTHoves-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Thin.eot");
+  src: local("TT Hoves Thin"), local("../scss/fonts/TTHoves-Thin"), url("../scss/fonts/TTHoves-Thin.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Thin.woff2") format("woff2"), url("../scss/fonts/TTHoves-Thin.woff") format("woff"), url("../scss/fonts/TTHoves-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-DemiBold.eot");
+  src: local("TT Hoves DemiBold"), local("../scss/fonts/TTHoves-DemiBold"), url("../scss/fonts/TTHoves-DemiBold.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-DemiBold.woff2") format("woff2"), url("../scss/fonts/TTHoves-DemiBold.woff") format("woff"), url("../scss/fonts/TTHoves-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-BoldItalic.eot");
+  src: local("TT Hoves Bold Italic"), local("../scss/fonts/TTHoves-BoldItalic"), url("../scss/fonts/TTHoves-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-BoldItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-BoldItalic.woff") format("woff"), url("../scss/fonts/TTHoves-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Black.eot");
+  src: local("TT Hoves Black"), local("../scss/fonts/TTHoves-Black"), url("../scss/fonts/TTHoves-Black.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Black.woff2") format("woff2"), url("../scss/fonts/TTHoves-Black.woff") format("woff"), url("../scss/fonts/TTHoves-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-ExtraLight.eot");
+  src: local("TT Hoves ExtraLight"), local("../scss/fonts/TTHoves-ExtraLight"), url("../scss/fonts/TTHoves-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-ExtraLight.woff2") format("woff2"), url("../scss/fonts/TTHoves-ExtraLight.woff") format("woff"), url("../scss/fonts/TTHoves-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Bold.eot");
+  src: local("TT Hoves Bold"), local("../scss/fonts/TTHoves-Bold"), url("../scss/fonts/TTHoves-Bold.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Bold.woff2") format("woff2"), url("../scss/fonts/TTHoves-Bold.woff") format("woff"), url("../scss/fonts/TTHoves-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-ThinItalic.eot");
+  src: local("TT Hoves Thin Italic"), local("../scss/fonts/TTHoves-ThinItalic"), url("../scss/fonts/TTHoves-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-ThinItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-ThinItalic.woff") format("woff"), url("../scss/fonts/TTHoves-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Italic.eot");
+  src: local("TT Hoves Italic"), local("../scss/fonts/TTHoves-Italic"), url("../scss/fonts/TTHoves-Italic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Italic.woff2") format("woff2"), url("../scss/fonts/TTHoves-Italic.woff") format("woff"), url("../scss/fonts/TTHoves-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-BlackItalic.eot");
+  src: local("TT Hoves Black Italic"), local("../scss/fonts/TTHoves-BlackItalic"), url("../scss/fonts/TTHoves-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-BlackItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-BlackItalic.woff") format("woff"), url("../scss/fonts/TTHoves-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-ExtraBold.eot");
+  src: local("TT Hoves ExtraBold"), local("../scss/fonts/TTHoves-ExtraBold"), url("../scss/fonts/TTHoves-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-ExtraBold.woff2") format("woff2"), url("../scss/fonts/TTHoves-ExtraBold.woff") format("woff"), url("../scss/fonts/TTHoves-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-DemiBoldItalic.eot");
+  src: local("TT Hoves DemiBold Italic"), local("../scss/fonts/TTHoves-DemiBoldItalic"), url("../scss/fonts/TTHoves-DemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-DemiBoldItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-DemiBoldItalic.woff") format("woff"), url("../scss/fonts/TTHoves-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-MediumItalic.eot");
+  src: local("TT Hoves Medium Italic"), local("../scss/fonts/TTHoves-MediumItalic"), url("../scss/fonts/TTHoves-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-MediumItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-MediumItalic.woff") format("woff"), url("../scss/fonts/TTHoves-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-ExtraBoldItalic.eot");
+  src: local("TT Hoves ExtraBold Italic"), local("../scss/fonts/TTHoves-ExtraBoldItalic"), url("../scss/fonts/TTHoves-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-ExtraBoldItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-ExtraBoldItalic.woff") format("woff"), url("../scss/fonts/TTHoves-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Regular.eot");
+  src: local("TT Hoves Regular"), local("../scss/fonts/TTHoves-Regular"), url("../scss/fonts/TTHoves-Regular.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Regular.woff2") format("woff2"), url("../scss/fonts/TTHoves-Regular.woff") format("woff"), url("../scss/fonts/TTHoves-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves Hairline";
+  src: url("../scss/fonts/TTHoves-Hairline.eot");
+  src: local("TT Hoves Hairline"), local("../scss/fonts/TTHoves-Hairline"), url("../scss/fonts/TTHoves-Hairline.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Hairline.woff2") format("woff2"), url("../scss/fonts/TTHoves-Hairline.woff") format("woff"), url("../scss/fonts/TTHoves-Hairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-LightItalic.eot");
+  src: local("TT Hoves Light Italic"), local("../scss/fonts/TTHoves-LightItalic"), url("../scss/fonts/TTHoves-LightItalic.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-LightItalic.woff2") format("woff2"), url("../scss/fonts/TTHoves-LightItalic.woff") format("woff"), url("../scss/fonts/TTHoves-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Light.eot");
+  src: local("TT Hoves Light"), local("../scss/fonts/TTHoves-Light"), url("../scss/fonts/TTHoves-Light.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Light.woff2") format("woff2"), url("../scss/fonts/TTHoves-Light.woff") format("woff"), url("../scss/fonts/TTHoves-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url("../scss/fonts/TTHoves-Medium.eot");
+  src: local("TT Hoves Medium"), local("../scss/fonts/TTHoves-Medium"), url("../scss/fonts/TTHoves-Medium.eot?#iefix") format("embedded-opentype"), url("../scss/fonts/TTHoves-Medium.woff2") format("woff2"), url("../scss/fonts/TTHoves-Medium.woff") format("woff"), url("../scss/fonts/TTHoves-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display"), local("../scss/fonts/SF Pro Display"), url("../scss/fonts/SFProDisplay-Black.woff2") format("woff2"), url("../scss/fonts/SFProDisplay-Black.woff") format("woff"), url("../scss/fonts/SFProDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "TT Hoves";
+  color: #333333;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "TT Hoves";
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333%;
+}
+
+.col-8 {
+  width: 66.6666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333%;
+}
+
+.col-11 {
+  width: 91.6666%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+}
+
+.title span {
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.section__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  color: #bdbdbd;
+}
+
+.header {
+  padding: 30px 0;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  padding-right: 100px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-left: 60px;
+}
+
+.nav__link {
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.burger-menu {
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #333333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.burger-menu span::before,
+.burger-menu span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background-color: inherit;
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.burger-menu span::after {
+  transform: translateY(10px);
+}
+
+.burger-menu.is-active span {
+  height: 0;
+}
+
+.burger-menu.is-active span::before {
+  transform: rotate(-45deg);
+}
+
+.burger-menu.is-active span::after {
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+  .nav.is-active {
+    transform: translateX(0);
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__item {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .burger-menu {
+    display: flex;
+    z-index: 3;
+  }
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .row {
+  display: flex !important;
+}
+
+.col-4 .hero__item {
+  padding-top: 200px;
+}
+
+.hero__counter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: none;
+  margin-top: 220px;
+  color: #bdbdbd;
+}
+
+.hero__counter span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.hero__item {
+  position: relative;
+}
+
+.hero__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  padding: 30px 50px;
+  background-color: #fff;
+}
+
+.hero .slick-slide {
+  outline: none;
+}
+
+.hero .slick-next.slick-arrow,
+.hero .slick-prev.slick-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #bdbdbd;
+  z-index: 1;
+}
+
+.hero .slick-next.slick-arrow::before,
+.hero .slick-prev.slick-arrow::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 17px;
+  height: 8px;
+  background: url("../images/arrow.svg");
+}
+
+.hero .slick-next.slick-arrow:hover,
+.hero .slick-prev.slick-arrow:hover {
+  cursor: pointer;
+}
+
+.hero .slick-next.slick-arrow {
+  left: 70px;
+}
+
+.hero .slick-next.slick-arrow::before {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.about {
+  padding-top: 120px;
+}
+
+.about__row {
+  padding: 30px 70px 30px 70px;
+  background-color: #fbfbfb;
+  height: 435px;
+  box-sizing: border-box;
+}
+
+.about__column {
+  padding-top: 30px;
+}
+
+.about__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  color: #bdbdbd;
+}
+
+.about__description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  line-height: 1.5;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.about__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 30px 65px;
+  background-color: #fff;
+  color: #333333;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.about__link path {
+  transition: 0.4s;
+}
+
+.about__link::before, .about__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #333333;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.about__link::after {
+  left: auto;
+  right: 0;
+  z-index: -1;
+}
+
+.about__link:hover {
+  box-shadow: 0 0 10px 0 orange;
+  color: #fff;
+}
+
+.about__link:hover::before {
+  width: 50%;
+}
+
+.about__link:hover::after {
+  width: 50%;
+}
+
+.about__link:hover path {
+  fill: #fff;
+}
+
+.about__img_first {
+  vertical-align: top;
+  margin-top: -30px;
+  margin-right: 30px;
+}
+
+.about__img_third {
+  margin-top: -15%;
+}
+
+.tasks {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.tasks__row {
+  padding-top: 60px;
+}
+
+.tasks__item {
+  display: flex;
+}
+
+.tasks__number {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  font-family: "SF Pro Display";
+  line-height: 0.7;
+  color: #f2f2f2;
+}
+
+.tasks__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+.projects {
+  padding-bottom: 220px;
+}
+
+.projects__row {
+  margin: -15px;
+  padding-top: 60px;
+}
+
+.projects__column {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.projects__item {
+  position: relative;
+  height: 255px;
+  overflow: hidden;
+}
+
+.projects__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects__item:hover .projects__info {
+  top: 0;
+}
+
+.projects__info {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 48px 78px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.projects__info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.projects__info a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.projects__link {
+  margin-top: 30px;
+  float: right;
+  background-color: #333333;
+  color: #fff;
+}
+
+.projects__link path {
+  fill: #fff;
+}
+
+.projects__link:hover {
+  color: #333333;
+}
+
+.projects__link:hover::before, .projects__link:hover::after {
+  background-color: #fff;
+}
+
+.projects__link:hover path {
+  fill: #333333;
+}
+
+.contacts {
+  padding-bottom: 120px;
+}
+
+.contacts__title {
+  margin-bottom: 22px;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts input,
+.contacts textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+  color: #bdbdbd;
+  resize: none;
+}
+
+.contacts__row {
+  margin: 0 -15px;
+}
+
+.contacts__column {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.contacts__column img {
+  height: 372px;
+}
+
+.contacts__checkbox {
+  position: relative;
+}
+
+.contacts__checkbox::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: #f3f3f3 url("../images/tick-symbol.svg") no-repeat center;
+}
+
+.contacts input[type="checkbox"]:checked + label::before {
+  background-image: none;
+}
+
+.contacts input[type="checkbox"] {
+  display: none;
+}
+
+.contacts__checkbox span {
+  display: block;
+  margin-left: 40px;
+  user-select: none;
+}
+
+.contacts__btn {
+  float: left;
+}
+
+.footer {
+  padding-top: 60px;
+  background-color: #333333;
+}
+
+.footer__logo {
+  filter: brightness(0) invert(1);
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.footer__li {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer__symbol {
+  margin-right: 19px;
+}
+
+.footer__listSymbol {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+}
+
+.footer__titleSymbol {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+  margin-bottom: 25px;
+  color: #fff;
+  margin-left: 85px;
+}
+
+.gallery {
+  padding-bottom: 233px;
+}
+
+.gallery__content {
+  padding-top: 63px;
+  padding-bottom: 30px;
+  max-width: 453px;
+}
+
+.gallery__row {
+  position: relative;
+  display: flex !important;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.gallery__column {
+  padding: 15px;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.gallery__column img {
+  width: 100%;
+  height: 260px;
+}
+
+.gallery__column:first-child, .gallery__column:nth-child(6) {
+  padding-left: 0;
+}
+
+.gallery__column:nth-child(5), .gallery__column:nth-child(10) {
+  padding-right: 0;
+}
+
+.gallery__item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  color: #333333;
+}
+
+.gallery__item:hover .gallery__info {
+  transform: translateY(0);
+}
+
+.gallery__info {
+  position: absolute;
+  bottom: 0;
+  background-color: #fbfbfb;
+  padding: 20px;
+  height: 50%;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: 0.3s;
+}
+
+.gallery__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: none;
+}
+
+.gallery__counter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #bdbdbd;
+  opacity: 0;
+  transition-delay: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.gallery__counter span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.gallery .slick-slide {
+  outline: none;
+}
+
+.gallery .slick-next.slick-arrow,
+.gallery .slick-prev.slick-arrow {
+  position: absolute;
+  bottom: -20px;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #bdbdbd;
+  z-index: 1;
+}
+
+.gallery .slick-next.slick-arrow::before,
+.gallery .slick-prev.slick-arrow::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 17px;
+  height: 8px;
+  background: url("../images/arrow.svg");
+}
+
+.gallery .slick-next.slick-arrow:hover,
+.gallery .slick-prev.slick-arrow:hover {
+  cursor: pointer;
+}
+
+.gallery .slick-prev.slick-arrow {
+  left: 168px;
+}
+
+.gallery .slick-next.slick-arrow {
+  left: 238px;
+}
+
+.gallery .slick-next.slick-arrow::before {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.row.gallery__row.slick-slide.slick-current.slick-active .gallery__counter {
+  opacity: 1;
+}
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}

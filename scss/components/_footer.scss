@@ -1,0 +1,34 @@
+.footer {
+	padding-top: 60px;
+	background-color: $color-black;
+	&__logo {
+		filter: brightness(0) invert(1);
+	}
+	&__title {
+		@include font(16px, 700);
+		margin-bottom: 25px;
+		color: $color-white;
+	}
+	&__li {
+		margin-bottom: 16px;
+	}
+	&__link {
+		@include font(14px, 500, 0.03em);
+		line-height: 24px;
+		color: $color-white;
+	}
+	&__symbol {
+		margin-right: 19px;
+	}
+	&__listSymbol {
+		display: flex;
+		justify-content: space-around;
+		margin-left: 70px;
+	}
+	&__titleSymbol {
+		@include font(16px, 700);
+		margin-bottom: 25px;
+		color: $color-white;
+		margin-left: 85px;
+	}
+}

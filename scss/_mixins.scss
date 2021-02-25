@@ -1,0 +1,22 @@
+@mixin font($size, $weight, $lt: 1, $textCase: none) {
+	font-style: normal;
+	font-weight: $weight;
+	font-size: $size;
+	line-height: 1;
+	letter-spacing: $lt;
+	text-transform: $textCase;
+}
+
+@mixin display-flex($justify: center, $align: center) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+@mixin position($top: 0, $left: 0, $right: 0, $bottom: 0) {
+	position: absolute;
+	left: $left;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+}

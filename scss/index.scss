@@ -1,0 +1,21 @@
+@import "./fonts/TTHoves";
+@import "./mixins";
+@import "./variables";
+@import "./base";
+
+// Components
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/tasks";
+@import "./components/projects";
+@import "./components/contacts";
+@import "./components/footer";
+
+// pages // Страницы
+
+@import "./pages/gallery";
+
+// Vendors
+@import "./vendors/slick";

@@ -1,0 +1,75 @@
+.about {
+	padding-top: 120px;
+	&__row {
+		padding: 30px 70px 30px 70px;
+		background-color: $color-section;
+		height: 435px;
+		box-sizing: border-box;
+	}
+	&__column {
+		padding-top: 30px;
+	}
+	&__title {
+		@include font(64px, 300);
+		color: $color-gray;
+	}
+	&__description {
+		@include font(16px, 300);
+		line-height: 1.5;
+		color: $color-black;
+		margin: 20px 0;
+	}
+	&__link {
+		@include font(12px, 400, 0.2em, uppercase);
+		padding: 30px 65px;
+		background-color: $color-white;
+		color: $color-black;
+		position: relative;
+		z-index: 1;
+		transition: 0.4s;
+		path {
+			transition: 0.4s;
+		}
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 0%;
+			height: 100%;
+			background-color: $color-black;
+			z-index: -1;
+			transition: 0.4s;
+		}
+		&::after {
+			left: auto;
+			right: 0;
+			z-index: -1;
+		}
+		&:hover {
+			box-shadow: 0 0 10px 0 orange;
+			color: $color-white;
+			&::before {
+				width: 50%;
+			}
+			&::after {
+				width: 50%;
+			}
+			path {
+				fill: $color-white;
+			}
+		}
+	}
+	&__img {
+		&_first {
+			vertical-align: top;
+			margin-top: -30px;
+			margin-right: 30px;
+		}
+		&_third {
+			margin-top: -15%;
+		}
+	}
+}
