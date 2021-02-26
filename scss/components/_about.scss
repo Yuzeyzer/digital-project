@@ -3,7 +3,7 @@
 	&__row {
 		padding: 30px 70px 30px 70px;
 		background-color: $color-section;
-		height: 435px;
+		min-height: 435px;
 		box-sizing: border-box;
 	}
 	&__column {
@@ -70,6 +70,17 @@
 		}
 		&_third {
 			margin-top: -15%;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.about {
+		&__row {
+			padding: 30px 20px 30px 20px;
+		}
+		&__title {
+			margin-top: 20px;
 		}
 	}
 }

@@ -19,3 +19,20 @@
 		margin-left: 30px;
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.tasks {
+		&__item {
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 40px;
+		}
+		&__number {
+			margin-bottom: 30px;
+		}
+		&__description {
+			margin-left: 0;
+		}
+	}
+}

@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
-    />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -21,506 +17,53 @@
             </a>
           </div>
           <nav class="nav">
+            <div class="nav__logo">
+              <a href="" class="logo__link">
+                <img src="./images/logo.png" alt="logo" />
+              </a>
+            </div>
             <ul class="nav__list">
-              <li class="nav__item"><a href="./index.html" class="nav__link">ГЛАВНАЯ</a></li>
+              <li class="nav__item"><a href="" class="nav__link">ГЛАВНАЯ</a></li>
               <li class="nav__item"><a href="./gallery.html" class="nav__link">ГАЛЕРЕЯ</a></li>
               <li class="nav__item"><a href="./projects.html" class="nav__link">ПРОЕКТЫ</a></li>
               <li class="nav__item"><a href="" class="nav__link">СЕРТИФИКАТЫ</a></li>
-              <li class="nav__item"><a href="./contacts.html" class="nav__link">КОНТАКТЫ</a></li>
+              <li class="nav__item"><a href="" class="nav__link">КОНТАКТЫ</a></li>
             </ul>
           </nav>
+          <div class="burger-menu">
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="gallery">
+      <section class="contacts">
         <div class="container">
-          <div class="gallery__content">
-            <h1 class="title">
-              <span>Галерея</span>
-              Фотографий
-            </h1>
-          </div>
-          <hr />
-          <div class="gallery__slider">
-            <div class="row gallery__row">
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-1.png"
-                  class="gallery__item"
+          <div class="contacts__row row">
+            <div class="col-5">
+              <div class="contacts__item">
+                <h1 class="title">
+                  <span>КОНТАКТНАЯ</span>
+                  ИНФОРМАЦИЯ
+                </h1>
+                <p class="contacts__description">
+                  <span>«Digital Project»</span><br />
+                  г. Караганда, ул. Телевизионная 10
+                </p>
+                <a href="tel:+7(701)7776811" class="contacts__phone">+7 (701) 77 76 811</a>
+                <a href="mailto:Galym.sultanov@mail.ru" class="contacts__email"
+                  >Galym.sultanov@mail.ru</a
                 >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-2.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__counter">
-                <span>1</span>
-                <span> / </span>
-                <span>5</span>
+                <button class="contacts__btn">Обратная Связь</button>
               </div>
             </div>
-            <div class="row gallery__row">
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-1.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-2.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__counter">
-                <span>2</span>
-                <span> / </span>
-                <span>5</span>
-              </div>
-            </div>
-            <div class="row gallery__row">
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-1.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-2.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__counter">
-                <span>3</span>
-                <span> / </span>
-                <span>5</span>
-              </div>
-            </div>
-            <div class="row gallery__row">
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-1.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-2.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__counter">
-                <span>4</span>
-                <span> / </span>
-                <span>5</span>
-              </div>
-            </div>
-            <div class="row gallery__row">
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-1.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <a
-                  data-fancybox="gallery"
-                  href="./images/projects-item-2.png"
-                  class="gallery__item"
-                >
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </a>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__column">
-                <div class="gallery__item">
-                  <img src="./images/gallery-1.png" alt="" />
-                  <div class="gallery__info">
-                    <p class="gallery__text">Описание или пояснение к изображению.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery__counter">
-                <span>5</span>
-                <span> / </span>
-                <span>5</span>
+            <div class="col-7">
+              <div class="contacts__item">
+                <div id="map"></div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
     </main>
@@ -707,13 +250,26 @@
       </div>
     </footer>
 
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<style>
+			#map {
+				height: 500px;
+			}
+		</style>
+		
+		<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFCdXcoPdyM3SS-7jnia3zKoS7zmdCVUM&callback=initMap&libraries=&v=weekly"
+		async
+	></script>
+
     <script>
-      $('.gallery__slider').slick({
-        infinite: true,
-      });
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 42.397, lng: 74.644 },
+          zoom: 8,
+        });
+      }
     </script>
   </body>
 </html>

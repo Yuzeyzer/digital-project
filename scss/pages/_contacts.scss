@@ -1,0 +1,33 @@
+.contacts {
+	&__description {
+		@include font(18px, 300);
+		margin-top: 34px;
+		line-height: 22px;
+		span {
+			font-weight: 700;
+		}
+	}
+	&__phone {
+		@include font(18px, 700);
+		margin: 40px 0 50px;
+		display: inline-block;
+		line-height: 22px;
+		color: $color-black;
+	}
+	&__email {
+		@include font(16px, 300);
+		display: block;
+		line-height: 20px;
+		color: $color-black;
+		margin-bottom: 30px;
+	}
+	&__btn {
+		@include font(12px, 400, 0.2em, uppercase);
+		color: $color-white;
+		background-color: $color-black;
+		padding: 30px 42px;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+}

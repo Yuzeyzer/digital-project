@@ -58,3 +58,26 @@
 		}
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.hero {
+		.row &__item {
+			padding-top: 0;
+		}
+		&__counter {
+			margin: 35px auto 60px;
+			text-align: center;
+		}
+		.slick-next.slick-arrow,
+		.slick-prev.slick-arrow {
+			top: 25%;
+		}
+		.slick-next.slick-arrow {
+			left: auto;
+			right: 0;
+		}
+		.slick-slide img {
+			height: 350px;
+		}
+	}
+}
