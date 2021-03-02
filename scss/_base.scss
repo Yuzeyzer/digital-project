@@ -105,7 +105,7 @@ hr {
         width: 100%;
     }
     .title {
-        @include font(700, 42px, 1, uppercase);
+        @include font(700, 32px, 1, uppercase);
     }
     .container {
         padding: 0 20px;
