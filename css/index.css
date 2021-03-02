@@ -557,6 +557,9 @@ hr {
   .row .hero__item {
     padding-top: 0;
   }
+  .hero .title {
+    font-size: 44px;
+  }
   .hero__counter {
     margin: 35px auto 60px;
     text-align: center;
@@ -1236,7 +1239,7 @@ hr {
 .gallery__slider .slick-prev.slick-arrow::before {
   content: "";
   position: absolute;
-  background: url("./images/arrow.svg") center no-repeat;
+  background: url("../images/arrow.svg") center no-repeat;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -1382,7 +1385,7 @@ hr {
   top: 50%;
   left: 50%;
   position: absolute;
-  background: #FBFBFB url("./images/arrow.svg") center no-repeat;
+  background: #FBFBFB url("../images/arrow.svg") center no-repeat;
   width: 17px;
   height: 8px;
   transform: translate(-50%, -50%);
@@ -1572,7 +1575,7 @@ hr {
   width: 17px;
   height: 8px;
   transform: translate(-50%, -50%);
-  background: #FBFBFB url("./images/arrow.svg") center no-repeat;
+  background: #FBFBFB url("../images/arrow.svg") center no-repeat;
 }
 
 .certificates .slick-next.slick-arrow {
