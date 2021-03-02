@@ -1,132 +1,137 @@
 .header {
-	padding: 30px 0;
-	&__row {
-		@include display-flex(space-between, center);
-	}
+  padding: 30px 0;
+  &__row {
+    @include display-flex(space-between, center);
+  }
 }
 
 .nav {
-	padding-right: 100px;
-	&__list {
-		display: flex;
-	}
-	&__item {
-		position: relative;
-		margin-left: 60px;
-		&::before,
-		&::after {
-			content: "";
-			position: absolute;
-			left: 0;
-			top: -2px;
-			width: 0%;
-			height: 2px;
-			background-color: $color-black;
-			transition: 0.3s;
-		}
-		&::after {
-			top: auto;
-			bottom: -5px;
-			left: auto;
-			right: 0;
-		}
-		&:hover {
-			&::before,
-			&::after {
-				width: 100%;
-			}
-		}
-	}
-	&__link {
-		color: $color-black;
-		@include font(12px, 400, 0.2em, uppercase);
-	}
-	&__logo {
-		display: none;
-	}
+  padding-right: 100px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    margin-left: 60px;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $color-black;
+      transition: 0.5s;
+    }
+    &::after {
+      top: auto;
+      bottom: -5px;
+      left: auto;
+      right: 0;
+    }
+    &:hover {
+      &::before,
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+  &__link {
+    color: $color-black;
+    @include font(400, 12px, 0.2em, uppercase);
+  }
+  &__logo {
+    display: none;
+  }
 }
 
 .burger-menu {
-	position: fixed;
-	right: 5%;
-	top: 5%;
-	display: none;
-	align-items: center;
-	justify-content: center;
-	width: 60px;
-	height: 60px;
-	background-color: $color-black;
-	border-radius: 50%;
-	cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: $color-black;
+  border-radius: 50%;
+  cursor: pointer;
 }
-
 .burger-menu span {
-	position: relative;
-	display: block;
-	width: 60%;
-	height: 2px;
-	background-color: $color-white;
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: $color-white;
 }
-
 .burger-menu span::before,
 .burger-menu span::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 2px;
-	background-color: inherit;
-	transform: translateY(-10px);
-	transition: 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-10px);
+  background-color: $color-white;
+  transition: 0.5s;
 }
 .burger-menu span::after {
-	transform: translateY(10px);
+  transform: translateY(10px);
 }
 .burger-menu.is-active span {
-	height: 0;
+  height: 0;
 }
 .burger-menu.is-active span::before {
-	transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 .burger-menu.is-active span::after {
-	transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
+
 @media screen and (max-width: 1024px) {
-	.nav {
-		flex-direction: column;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: 2;
-		height: 100vh;
-		width: 100vw;
-		background-color: $color-white;
-		transform: translateX(100%);
-		transition: 0.5s;
-		&.is-active {
-			transform: translateX(0);
-		}
-		&__list {
-			display: flex;
-			flex-direction: column;
-			width: 100%;
-			align-items: center;
-			justify-content: center;
-		}
-		&__item {
-			margin-top: 20px;
-			margin-left: 0;
-		}
-		&__logo {
-			display: block;
-		}
-	}
-	.burger-menu {
-		display: flex;
-		z-index: 3;
-	}
+  .nav {
+    transform: translateX(100%);
+    transition: 0.5s;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-section;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    &.is-active {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    &__logo {
+      margin-bottom: 30px;
+      display: flex;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    &__item {
+      margin: 0 0 20px 0;
+      &:nth-child(5) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .burger-menu {
+    display: flex;
+    z-index: 3;
+  }
 }
+

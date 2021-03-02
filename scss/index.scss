@@ -3,21 +3,22 @@
 @import "./variables";
 @import "./base";
 
-// Components
-
+// components
 @import "./components/header";
 @import "./components/hero";
 @import "./components/about";
 @import "./components/tasks";
 @import "./components/projects";
-@import "./components/contacts";
+@import "./components/contatcs";
 @import "./components/footer";
+@import "./components/modal";
 
-// pages // Страницы
-
+// pages
 @import "./pages/gallery";
-@import "./pages/our-projects";
-@import "./pages/contacts";
+@import "./pages/ourprojects";
+@import "./pages/contacts-info";
+@import "./pages/certificates";
+@import "./pages/parking";
 
-// Vendors
+// vendors
 @import "./vendors/slick";

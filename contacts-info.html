@@ -12,22 +12,28 @@
       <div class="container">
         <div class="header__row">
           <div class="logo">
-            <a href="" class="logo__link">
-              <img src="./images/logo.png" alt="logo" />
-            </a>
+            <a href="" class="logo__link"><img src="./images/logo.png" alt="LOGO" /> </a>
           </div>
           <nav class="nav">
             <div class="nav__logo">
-              <a href="" class="logo__link">
-                <img src="./images/logo.png" alt="logo" />
-              </a>
+              <a href="" class="logo__link"><img src="./images/logo.png" alt="LOGO" /> </a>
             </div>
             <ul class="nav__list">
-              <li class="nav__item"><a href="" class="nav__link">ГЛАВНАЯ</a></li>
-              <li class="nav__item"><a href="./gallery.html" class="nav__link">ГАЛЕРЕЯ</a></li>
-              <li class="nav__item"><a href="./projects.html" class="nav__link">ПРОЕКТЫ</a></li>
-              <li class="nav__item"><a href="" class="nav__link">СЕРТИФИКАТЫ</a></li>
-              <li class="nav__item"><a href="" class="nav__link">КОНТАКТЫ</a></li>
+              <li class="nav__item">
+                <a href="./index.html" class="nav__link">ГЛАВНАЯ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./gallery.html" class="nav__link">ГАЛЕРЕЯ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./projects.html" class="nav__link">ПРОЕКТЫ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./certificates.html" class="nav__link">СЕРТИФИКАТЫ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./contacts-info.html" class="nav__link">КОНТАКТЫ</a>
+              </li>
             </ul>
           </nav>
           <div class="burger-menu">
@@ -36,78 +42,141 @@
         </div>
       </div>
     </header>
-
     <main>
-      <section class="contacts">
+      <div class="modal">
+        <form class="modal__form">
+          <h3 class="modal__title">
+            Задать вопрос
+            <svg
+              class="modal__close"
+              width="16"
+              height="15"
+              viewBox="0 0 16 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line x1="1.35355" y1="0.646447" x2="15.3536" y2="14.6464" stroke="#C1C1C1" />
+              <line x1="0.646447" y1="14.6464" x2="14.6464" y2="0.646448" stroke="#C1C1C1" />
+            </svg>
+          </h3>
+
+          <input type="text" name="name" placeholder="Имя" />
+          <input type="text" name="phone" placeholder="Номер телефона*" />
+          <input type="text" name="email" placeholder="E-mail*" />
+          <input type="text" name="product" placeholder="Интересующий товар/услуга" />
+          <textarea
+            name="description"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Сообщение*"
+            class="contacts__textarea"
+          ></textarea>
+          <div>
+            <input class="modal-checkbox__input" id="modal-checkbox" type="checkbox" />
+            <label required for="modal-checkbox" class="modal__checkbox">
+              <span class="modal__description"
+                >Отправляя заявку Вы соглашаетесьс политикой конфиденциальности
+              </span>
+            </label>
+          </div>
+          <button type="submit" class="about__link modal__btn">ОТПРАВИТЬ</button>
+        </form>
+      </div>
+
+      <div class="modal-thanks">
+        <div class="modal-thanks__wrapper">
+          <svg
+            width="142"
+            height="142"
+            viewBox="0 0 142 142"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M71 112C93.6437 112 112 93.6437 112 71C112 48.3563 93.6437 30 71 30C48.3563 30 30 48.3563 30 71C30 93.6437 48.3563 112 71 112Z"
+              fill="#0DC332"
+            />
+            <path
+              d="M133.5 71C133.5 105.518 105.518 133.5 71 133.5C36.4822 133.5 8.5 105.518 8.5 71C8.5 36.4822 36.4822 8.5 71 8.5C105.518 8.5 133.5 36.4822 133.5 71Z"
+              stroke="#D1D1D1"
+            />
+            <path
+              d="M92 56L66.1538 85L50 72.1111"
+              stroke="white"
+              stroke-width="6"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <h3 class="modal-thanks__title">Спасибо !</h3>
+          <p class="modal-thanks__description">
+            Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
+          </p>
+          <button class="about__link modal-thanks__btn">Вернуться назад</button>
+        </div>
+      </div>
+
+      <section class="contacts-info">
         <div class="container">
-          <div class="contacts__row row">
+          <div class="row contacts-info__row">
             <div class="col-5">
-              <div class="contacts__item">
-                <h1 class="title">
-                  <span>КОНТАКТНАЯ</span>
-                  ИНФОРМАЦИЯ
-                </h1>
-                <p class="contacts__description">
-                  <span>«Digital Project»</span><br />
+              <div class="contacts-info__item">
+                <h1 class="title contacts-info__title">КОНТАКТНАЯ <span>ИНФОРМАЦИЯ</span></h1>
+                <p class="contacts-info__description">
+                  <span>«Digital Project»</span> <br />
                   г. Караганда, ул. Телевизионная 10
                 </p>
-                <a href="tel:+7(701)7776811" class="contacts__phone">+7 (701) 77 76 811</a>
-                <a href="mailto:Galym.sultanov@mail.ru" class="contacts__email"
+                <a href="tel:+7 (701) 77 76 811" class="contacts-info__phone">+7 (701) 77 76 811</a>
+                <a href="mailto:Galym.sultanov@mail.ru" class="contacts-info__email"
                   >Galym.sultanov@mail.ru</a
                 >
-                <button class="contacts__btn">Обратная Связь</button>
+                <button class="contacts-info__btn">Обратная связь</button>
               </div>
             </div>
             <div class="col-7">
-              <div class="contacts__item">
-                <div id="map"></div>
+              <div class="contacts-info__item">
+                <script
+                  type="text/javascript"
+                  charset="utf-8"
+                  async
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab98177ef1675be5e616b7479a618dd4e07f73f0f4eace11481e8fbb1b73d6025&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true"
+                ></script>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-2">
+        <div class="row footer__row">
+          <div class="col-2 footer__column">
             <div class="footer__item">
-              <div class="logo footer__logo">
-                <a href="" class="logo__link">
-                  <img src="./images/logo.png" alt="logo" />
-                </a>
-              </div>
+              <a href="" class="logo__link">
+                <img src="./images/logo-big.png" alt="LOGO" />
+              </a>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 footer__column footer__column_modify">
             <div class="footer__item">
               <h3 class="footer__title">Информация</h3>
               <ul class="footer__list">
-                <li class="footer__li">
-                  <a href="" class="footer__link">Главная</a>
-                </li>
-                <li class="footer__li">
-                  <a href="" class="footer__link">Галерея</a>
-                </li>
-                <li class="footer__li">
-                  <a href="" class="footer__link">Проекты</a>
-                </li>
-                <li class="footer__li">
-                  <a href="" class="footer__link">Сертификаты</a>
-                </li>
-                <li class="footer__li">
-                  <a href="" class="footer__link">Контакты</a>
-                </li>
+                <li class="footer__li"><a href="#" class="footer__link">Главная</a></li>
+                <li class="footer__li"><a href="#" class="footer__link">Галерея</a></li>
+                <li class="footer__li"><a href="#" class="footer__link">Проекты</a></li>
+                <li class="footer__li"><a href="#" class="footer__link">Сертификаты</a></li>
+                <li class="footer__li"><a href="#" class="footer__link">Контакты</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 footer__column">
             <div class="footer__item">
               <h3 class="footer__title">Контакты</h3>
               <ul class="footer__list">
                 <li class="footer__li">
-                  <a href="" class="footer__link">
+                  <a href="#" class="footer__link">
                     <svg
                       width="11"
                       height="16"
@@ -124,8 +193,8 @@
                   >
                 </li>
                 <li class="footer__li">
-                  <a href="" class="footer__link"
-                    ><svg
+                  <a href="#" class="footer__link">
+                    <svg
                       width="17"
                       height="16"
                       viewBox="0 0 17 16"
@@ -147,7 +216,7 @@
                   </a>
                 </li>
                 <li class="footer__li">
-                  <a href="" class="footer__link">
+                  <a href="#" class="footer__link">
                     <svg
                       width="16"
                       height="11"
@@ -167,12 +236,12 @@
               </ul>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 footer__column">
             <div class="footer__item">
-              <h3 class="footer__titleSymbol">Социальные сети</h3>
-              <ul class="footer__listSymbol">
-                <li class="footer__liSymbol">
-                  <a href="" class="footer__link">
+              <h3 class="footer__title">Социальные сети</h3>
+              <ul class="footer__list footer__list_modify">
+                <li class="footer__li footer__li_modify">
+                  <a href="#" class="footer__link">
                     <svg
                       width="10"
                       height="19"
@@ -189,8 +258,8 @@
                     </svg>
                   </a>
                 </li>
-                <li class="footer__liSymbol">
-                  <a href="" class="footer__link">
+                <li class="footer__li footer__li_modify">
+                  <a href="#" class="footer__link">
                     <svg
                       width="22"
                       height="17"
@@ -207,8 +276,8 @@
                     </svg>
                   </a>
                 </li>
-                <li class="footer__liSymbol">
-                  <a href="" class="footer__link">
+                <li class="footer__li footer__li_modify">
+                  <a href="#" class="footer__link">
                     <svg
                       width="20"
                       height="20"
@@ -225,8 +294,8 @@
                     </svg>
                   </a>
                 </li>
-                <li class="footer__liSymbol">
-                  <a href="" class="footer__link">
+                <li class="footer__li footer__li_modify">
+                  <a href="#" class="footer__link">
                     <svg
                       width="14"
                       height="19"
@@ -248,28 +317,22 @@
           </div>
         </div>
       </div>
+      <hr class="footer__border" />
+      <div class="footer__end">© 2019 Digital Project. Все права защищены.</div>
     </footer>
-
-		<style>
-			#map {
-				height: 500px;
-			}
-		</style>
-		
-		<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFCdXcoPdyM3SS-7jnia3zKoS7zmdCVUM&callback=initMap&libraries=&v=weekly"
-		async
-	></script>
-
     <script>
       let map;
-
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: { lat: 42.397, lng: 74.644 },
+          center: { lat: -34.397, lng: 150.644 },
           zoom: 8,
         });
       }
     </script>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script src="./js/contacts.js"></script>
   </body>
 </html>

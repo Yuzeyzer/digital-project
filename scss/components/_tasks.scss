@@ -1,38 +1,38 @@
 .tasks {
-	padding-top: 150px;
-	padding-bottom: 120px;
-	&__row {
-		padding-top: 60px;
-	}
-	&__item {
-		display: flex;
-	}
-	&__number {
-		@include font(200px, 900, 1);
-		font-family: "SF Pro Display";
-		line-height: 0.7;
-		color: $color-number;
-	}
-	&__description {
-		@include font(22px, 400, 1);
-		line-height: 1.5;
-		margin-left: 30px;
-	}
+  padding-top: 150px;
+  padding-bottom: 120px;
+  &__row {
+    padding-top: 60px;
+  }
+  &__item {
+    display: flex;
+  }
+  &__number {
+    @include font(900, 200px, 1);
+    font-family: "SF Pro Display";
+    line-height: 0.7;
+    color: $color-black;
+  }
+  &__description {
+    @include font(22px, 400, 1);
+    line-height: 1.5;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-	.tasks {
-		&__item {
-			flex-wrap: wrap;
-			flex-direction: column;
-			align-items: center;
-			margin-bottom: 40px;
-		}
-		&__number {
-			margin-bottom: 30px;
-		}
-		&__description {
-			margin-left: 0;
-		}
-	}
+  .tasks {
+    &__item {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    &__number {
+      margin-bottom: 30px;
+    }
+    &__description {
+      margin-left: 0;
+    }
+  }
 }

@@ -1,64 +1,78 @@
 .projects {
-	padding-bottom: 220px;
-	&__row {
-		margin: -15px;
-		padding-top: 60px;
-	}
-	&__column {
-		padding: 15px;
-		box-sizing: border-box;
-	}
-	&__item {
-		position: relative;
-		height: 255px;
-		overflow: hidden;
-		img {
-			width: 100%;
-			height: 100%;
-		}
-		&:hover {
-			.projects__info {
-				top: 0;
-			}
-		}
-	}
-	&__info {
-		position: absolute;
-		left: 0;
-		top: 100%;
-		padding: 48px 78px;
-		width: 100%;
-		height: 100%;
-		box-sizing: border-box;
-		transition: 0.3s;
-		background-color: rgba(0, 0, 0, 0.6);
-		h5 {
-			@include font(64px, 700);
-			color: $color-white;
-			margin-bottom: 14px;
-		}
-		a {
-			@include font(12px, 400, 0.2em, uppercase);
-			color: $color-white;
-		}
-	}
-	&__link {
-		margin-top: 30px;
-		float: right;
-		background-color: $color-black;
-		color: $color-white;
-		path {
-			fill: $color-white;
-		}
-		&:hover {
-			color: $color-black;
-			&::before,
-			&::after {
-				background-color: $color-white;
-			}
-			path {
-				fill: $color-black;
-			}
-		}
-	}
+  padding-bottom: 250px;
+  &__row {
+    padding-top: 60px;
+    margin: -15px;
+  }
+  &__item {
+    position: relative;
+    margin: 15px;
+    max-height: 255px;
+    overflow: hidden;
+    &:hover {
+      .projects__info {
+        bottom: 0;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  &__info {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 48px 78px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    transition: 0.7s;
+
+    h5 {
+      @include font(700, 64px, 1, uppercase);
+      color: $color-white;
+      margin-bottom: 12px;
+    }
+    a {
+      @include font(400, 12px, 1, uppercase, 0.2em);
+      color: $color-white;
+      svg {
+        margin-left: 12px;
+        path {
+          fill: $color-white;
+        }
+      }
+    }
+  }
+  &__link {
+    margin-top: 30px;
+    padding: 30px 40px;
+    float: right;
+    background-color: $color-black;
+    box-shadow: none;
+    color: $color-white;
+    path {
+      fill: $color-white;
+    }
+    &:hover {
+      color: $color-black;
+      path {
+        fill: $color-black;
+      }
+      &::before {
+        background-color: $color-white;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects {
+    &__info {
+      display: none;
+    }
+  }
 }

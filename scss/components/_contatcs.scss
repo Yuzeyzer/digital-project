@@ -1,0 +1,65 @@
+.contacts {
+  padding-bottom: 120px;
+  &__title {
+    margin-bottom: 22px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  input,
+  textarea {
+    @include font(14px, 400, 0.04em);
+    padding: 14px 20px;
+    margin-bottom: 10px;
+    background-color: $color-background;
+    border: none;
+    outline: none;
+    color: $color-gray;
+    resize: none;
+  }
+  &__row {
+    margin: 0 -15px;
+  }
+  &__column {
+    padding: 0 15px;
+    box-sizing: border-box;
+    img {
+      height: 372px;
+    }
+  }
+
+  &__checkbox {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      background: $color-background url("../images/tick-symbol.svg") no-repeat center;
+    }
+  }
+
+  input[type="checkbox"]:checked + label {
+    &::before {
+      background-image: none;
+    }
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  &__checkbox span {
+    display: block;
+    margin-left: 40px;
+    user-select: none;
+  }
+  &__btn {
+    float: left;
+  }
+}

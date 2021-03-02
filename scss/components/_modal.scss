@@ -1,0 +1,98 @@
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	&__form {
+		padding: 40px 25px;
+		max-width: 470px;
+		background-color: $color-white;
+	}
+	input,
+	textarea {
+		@include font(400, 14px, 1.1, none, 0.04em);
+		width: 100%;
+		padding: 15px 20px;
+		background-color: $color-background;
+		outline: none;
+		border: none;
+		color: #8d8d8d;
+		box-sizing: border-box;
+	}
+	input {
+		margin-bottom: 10px;
+	}
+	textarea {
+		resize: none;
+		margin-bottom: 10px;
+	}
+	&-checkbox__input {
+		width: auto !important;
+	}
+	&__title {
+		@include font(700, 21px, 1.1, none, 0.04em);
+		position: relative;
+		color: $color-black;
+		text-align: center;
+		margin-bottom: 25px;
+		svg {
+			position: absolute;
+			right: 0;
+			top: 0;
+			transition: 0.3s;
+			&:hover {
+				cursor: pointer;
+				transform: rotate(35deg) scale(1.1);
+			}
+		}
+	}
+	&__btn {
+		margin-top: 25px;
+		width: 100%;
+	}
+}
+
+.modal-thanks {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	&__wrapper {
+		padding: 40px 45px;
+		max-width: 470px;
+		background-color: $color-white;
+		text-align: center;
+	}
+	&__title {
+		@include font(700, 21px, 1.1, none, 0.04em);
+		position: relative;
+		color: $color-black;
+		text-align: center;
+		margin: 24px 0 27px;
+	}
+	&__description {
+		font-family: TT Hoves;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 26px;
+		letter-spacing: 0.03em;
+		color: #4f4f4f;
+		margin-bottom: 40px;
+	}
+	&__btn {
+		width: 100%;
+	}
+}

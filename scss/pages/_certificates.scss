@@ -1,0 +1,69 @@
+.certificates {
+    padding-bottom: 150px;
+  &__content {
+    max-width: 469px;
+    margin-bottom: 42px;
+    margin-top: 70px;
+    span {
+      display: block;
+    }
+  }
+  &__row {
+    display: flex !important;
+    padding-bottom: 70px;
+    position: relative;
+  }
+  &__slider {
+    position: relative;
+  }
+  .slick-prev.slick-arrow,
+  .slick-next.slick-arrow {
+    position: absolute;
+    bottom: -15px;
+    right: 100px;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    outline: none;
+    z-index: 10;
+    cursor: pointer;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 17px;
+      height: 8px;
+      transform: translate(-50%, -50%);
+      background: $color-section url(/images/arrow.svg) center no-repeat;
+    }
+  }
+  .slick-next.slick-arrow {
+    transform: rotate(180deg);
+  }
+  .slick-prev.slick-arrow {
+    right: 180px;
+  }
+  &__counter {
+    @include font(400, 24px, 1);
+    color: $color-gray;
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+    z-index: 6;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    opacity: 0;
+    span:first-child{
+      color: $color-black;
+    }
+    span:nth-child(2){
+      margin: 0 10px;
+    }
+  }
+}
+.row.certificates__row.slick-slide.slick-current.slick-active .certificates__counter{
+    opacity: 1;
+  }

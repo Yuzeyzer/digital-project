@@ -1,22 +1,22 @@
-@mixin font($size, $weight, $lt: 1, $textCase: none) {
-	font-style: normal;
-	font-weight: $weight;
-	font-size: $size;
-	line-height: 1;
-	letter-spacing: $lt;
-	text-transform: $textCase;
+@mixin font($weight, $size, $l-height:1, $textCase:none, $letter: 0){
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $l-height;
+    text-transform: $textCase;
+    letter-spacing: $letter;
 }
 
-@mixin display-flex($justify: center, $align: center) {
-	display: flex;
-	justify-content: $justify;
-	align-items: $align;
+@mixin display-flex ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
 }
 
-@mixin position($top: 0, $left: 0, $right: 0, $bottom: 0) {
-	position: absolute;
-	left: $left;
-	top: $top;
-	right: $right;
-	bottom: $bottom;
+@mixin position($top: 0, $right: 0, $bottom: 0, $left: 0) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left; 
 }
